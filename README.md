@@ -10,19 +10,19 @@ Password hashing using bcrypt
 
 # Installation
 
-Clone the repository:
+1. Clone the repository:
 
     ```bash
     git clone <repository-url>
 
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 
     ```bash
      cd node-express-mongodb-jwt-auth
 
 
-# Install dependencies:
+3. Install dependencies:
 
     ```bash
     npm install
@@ -30,7 +30,7 @@ Navigate to the project directory:
 
 # Set up environment variables:
 
-Create a .env file in the root directory and provide the following variables:
+ 1. Create a .env file in the root directory and provide the following variables:
 
 
     ```bash 
@@ -42,7 +42,7 @@ Create a .env file in the root directory and provide the following variables:
     SECRET_KEY=<your-secret-key>
 
 
-# Start the server:
+2.  Start the server:
 
     ```bash    
     npm start
