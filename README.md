@@ -1,13 +1,14 @@
-Node.js Express MongoDB JWT Authentication
+# Node.js Express MongoDB JWT Authentication
+
 This is a simple authentication project built using Node.js, Express, MongoDB, and JWT (JSON Web Tokens).
 
-Features
+# Features
 User registration with email and password
 User login with email and password
 JWT-based authentication
 Password hashing using bcrypt
 
-Installation
+# Installation
 
 Clone the repository:
 
@@ -22,13 +23,13 @@ Copy code
 cd node-express-mongodb-jwt-auth
 
 
-Install dependencies:
+# Install dependencies:
 
 Copy code
 npm install
 
 
-Set up environment variables:
+# Set up environment variables:
 
 Create a .env file in the root directory and provide the following variables:
 
@@ -42,7 +43,7 @@ MONGODB_URI=<your-mongodb-uri>
 SECRET_KEY=<your-secret-key>
 
 
-Start the server:
+# Start the server:
 
 
 npm start
@@ -50,7 +51,7 @@ npm start
 The server should be running on http://localhost:3000.
 
 
-API Endpoints
+# API Endpoints
 
 Register User
 
@@ -98,11 +99,10 @@ URL: /api/users/profile
 
 Method: GET
 
-Headers:
+# Headers:
 
-plaintext
-Copy code
 Authorization: Bearer <jwt-token>
+
 Response:
 
 json
@@ -113,7 +113,7 @@ Copy code
   "createdAt": "2022-02-20T12:00:00.000Z"
 }
 
-Technologies Used
+# Technologies Used
 
 Node.js
 
@@ -126,6 +126,6 @@ JSON Web Tokens (JWT)
 bcrypt
 
 
-License
+# License
 This project is licensed under the MIT License.
 
